@@ -2,7 +2,7 @@
 // Search Button 
 document.querySelector('.search').addEventListener('click', function(){
 
-    var searchurl = "index.html"
+    var searchurl = "public/Search.html"
 
     window.location.href = searchurl;
 
@@ -10,7 +10,7 @@ document.querySelector('.search').addEventListener('click', function(){
 
 //Post Button
 document.querySelector('.post').addEventListener('click', function(){
-    var posturl = 'post.html'
+    var posturl = 'public/post.html'
 
     window.location.href = posturl
 });
